@@ -3,6 +3,7 @@ package com.example.controller;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,6 +26,10 @@ public class TestController {
 			return getEmployee(id).orElse(getAllEmployees().get(0));
 		}
 		return getAllEmployees().get(0);
+	}
+	
+	public List<Employee> findEmployeebySalary(String designation){
+		return getAllEmployees().stream().filter(e -> e.getDesignation().equals(designation) ).collect(Collectors.toList());
 	}
 	
 	public static Optional<Employee> getEmployee(String id){

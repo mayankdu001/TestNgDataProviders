@@ -1,6 +1,10 @@
 package com.example.test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.util.List;
+
 import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -22,7 +26,7 @@ public class SpringBootApplicationTest{
 	}
 	
 	@DataProvider(name = "testDp1")
-	public static Object[][] testDp() {
+	public static Object[][] testDpMethod1() {
 	    return new Object[][]{
 	    	{"1", "emp1"}, 
 	    	{"2", "emp2"}, 
@@ -32,10 +36,27 @@ public class SpringBootApplicationTest{
 	    	};
 	}
 	
+	@DataProvider(name = "testDp2")
+	public static Object[][] testDpMethod2() {
+	    return new Object[][]{
+	    	{20000.00, "manager"}, 
+	    	{20000.00, "developer"}
+	    	};
+	}
+	
 	@Test(dataProvider = "testDp1")
 	public void testFindEmployee(String id, String expected) {
 		Employee e = testController.findEmployee(id);
 		assertEquals(e.getName() , expected);
+	}
+	
+	@Test(dataProvider = "testDp2")
+	public void testFindEmployeeBySalary(double salary, String designation) {
+		List<Employee> list = testController.findEmployeebySalary(designation);
+		if( designation.equals("manager"))
+			assertTrue(list.stream().allMatch(e -> e.getSalary() > salary));
+		else 
+			assertTrue(list.stream().allMatch(e -> e.getSalary() <= salary));
 	}
 
 }

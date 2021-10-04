@@ -5,7 +5,8 @@
     <classes>
       <class name="com.example.test.SpringBootApplicationTest">
         <methods>
-          <include name="testFindEmployee" invocation-numbers="0 1 2 3 4"/>
+          <include name="testFindEmployeeBySalary" invocation-numbers="1"/>
+          <include name="init"/>
         </methods>
       </class> <!-- com.example.test.SpringBootApplicationTest -->
     </classes>
