@@ -6,7 +6,9 @@
       <class name="com.example.test.SpringBootApplicationTest">
         <methods>
           <include name="testFindEmployeeBySalary"/>
+          <include name="tearDownClass"/>
           <include name="init"/>
+          <include name="setUpClass"/>
         </methods>
       </class> <!-- com.example.test.SpringBootApplicationTest -->
     </classes>
