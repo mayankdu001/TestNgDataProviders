@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-13T08:17:51Z" name="Default suite" finished-at="2021-10-13T08:17:51Z" duration-ms="538">
+    <groups>
+    </groups>
+    <test started-at="2021-10-13T08:17:51Z" name="Default test" finished-at="2021-10-13T08:17:51Z" duration-ms="538">
+      <class name="com.example.test.ReadCsvAndJSONTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="init" finished-at="2021-10-13T13:47:51Z" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testWithCsv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="testWithCsv" data-provider="dpWithCsv" finished-at="2021-10-13T13:47:51Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[booker12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rachel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Booker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithCsv -->
+        <test-method signature="testWithCsv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="testWithCsv" data-provider="dpWithCsv" finished-at="2021-10-13T13:47:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grey07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2070]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Laura]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Grey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithCsv -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="init" finished-at="2021-10-13T13:47:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="init" finished-at="2021-10-13T13:47:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testWithCsv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="testWithCsv" data-provider="dpWithCsv" finished-at="2021-10-13T13:47:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johnson81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4081]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Craig]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Johnson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithCsv -->
+        <test-method signature="testWithCsv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="testWithCsv" data-provider="dpWithCsv" finished-at="2021-10-13T13:47:51Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jenkins46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9346]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mary]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jenkins]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithCsv -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="init" finished-at="2021-10-13T13:47:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="init" finished-at="2021-10-13T13:47:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testWithCsv(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.test.ReadCsvAndJSONTest@4241e0f4]" started-at="2021-10-13T13:47:51Z" name="testWithCsv" data-provider="dpWithCsv" finished-at="2021-10-13T13:47:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smith79]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5079]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jamie]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithCsv -->
+      </class> <!-- com.example.test.ReadCsvAndJSONTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
